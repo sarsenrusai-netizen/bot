@@ -9,11 +9,9 @@ from aiogram.types import KeyboardButton, Message, ReplyKeyboardMarkup
 from dotenv import load_dotenv
 
 # Загружаем переменные окружения из .env (если файл присутствует)
-load_dotenv()
 
 # Получаем токен бота из переменных окружения
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-
+BOT_TOKEN = "8776746316:AAFT0iXO4Rx9XSwGqUnrIkvLZ18aeU0iaGg"
 # Инициализируем роутер
 router = Router()
 
