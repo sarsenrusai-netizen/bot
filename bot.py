@@ -6,7 +6,6 @@ import sys
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.filters import CommandStart
 from aiogram.types import KeyboardButton, Message, ReplyKeyboardMarkup
-from dotenv import load_dotenv
 
 # Загружаем переменные окружения из .env (если файл присутствует)
 
